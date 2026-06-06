@@ -382,6 +382,10 @@
     box-shadow: 0 5px 15px rgba(255, 255, 255, 0.3);
   }
 
+  .LinkContact {
+    z-index: 10;
+  }
+
   /* -------------------------------------------------------------
         4. About Me Section
         ------------------------------------------------------------- */
@@ -476,7 +480,8 @@
     transform: rotate(5deg);
   }
 
-  .Rsume a:hover {
+  .Rsume a:hover,
+  .ContactMeB a:hover {
     color: #000000
   }
 
