@@ -361,6 +361,10 @@
     margin: 1rem 0;
   }
 
+  .hero-social-col a {
+    margin: 0.5rem;
+  }
+
   .hero-social-link {
     font-size: 1.25rem;
     color: var(--text-light);
@@ -1415,10 +1419,15 @@
     }
 
     .hero-social-col {
-      flex-direction: row;
+      display: flex;
+      flex-direction: column;
       justify-content: center;
       margin-top: 3rem;
+      width: fit-content;
       gap: 2rem;
+      position: relative;
+      top: -38rem;
+      right: -41rem;
     }
 
     .hero-social-col .line {
@@ -1433,6 +1442,10 @@
     .hero-avatar {
       max-height: 50vh;
       margin-top: 2rem;
+    }
+
+    .about-avatar {
+      display: none;
     }
 
     .section-title,
